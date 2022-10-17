@@ -30,6 +30,7 @@ class _MyHomePageState extends State<MyHomePage> {
   TextEditingController sNum = TextEditingController();
   TextEditingController tNum = TextEditingController();
   String ordenacao = "";
+  String media = "";
 
   @override
   Widget build(BuildContext context) {
@@ -57,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
               style: new TextStyle(
                   fontSize: 25.0,
                   color: const Color(0xFF000000),
-                  fontWeight: FontWeight.w500,
+                  fontWeight: FontWeight.w700,
                   fontFamily: "Roboto"),
             ),
             new Text(
