@@ -30,6 +30,8 @@ class _MyHomePageState extends State<MyHomePage> {
   TextEditingController sNum = TextEditingController();
   TextEditingController tNum = TextEditingController();
   String ordenacao = "";
+
+  String teste ="";
   String media = "";
 
   @override
