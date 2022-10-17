@@ -30,6 +30,7 @@ class _MyHomePageState extends State<MyHomePage> {
   TextEditingController sNum = TextEditingController();
   TextEditingController tNum = TextEditingController();
   String ordenacao = "";
+  String teste ="";
 
   @override
   Widget build(BuildContext context) {
